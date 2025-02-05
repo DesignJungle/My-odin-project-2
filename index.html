@@ -16,7 +16,56 @@
                 <img src="images/halie-west-25xggax4bSA-unsplash.jpg" alt="Photo by Halie West">
             </div>
         </div>
-        <div 
+        <div class="right-panel">
+            <div class="form-header">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+                <h2>Let's do this!</h2>
+            </div>
+
+            <form id="signup-form" class="signup-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstname">First Name</label>
+                        <input type="text" id="firstname" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" required>
+                        <span class="error-message"></span>
+                    </div>
+                </div>
+
+                <button type="submit" class="create-account">Create Account</button>
+            </form>
+
+            <div class="login-prompt">
+                Already have an account? <a href="#" class="login-link">Log in</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
